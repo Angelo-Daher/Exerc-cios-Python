@@ -1,2 +1,3 @@
 # Exercícios Python
-Repositório para práticas e exercícios de python
+Repositório para práticas e exercícios de python!
+Jornada com lógica de programação!
