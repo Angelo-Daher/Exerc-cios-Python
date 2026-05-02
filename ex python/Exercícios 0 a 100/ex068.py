@@ -35,3 +35,4 @@ while True:
     else:
         print('Escolha inválida. Digite P ou I.')
     
+  
