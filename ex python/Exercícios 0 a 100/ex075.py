@@ -5,9 +5,8 @@ for c in range(0, 7):
     value = int(input(f'Digite o valor {c+1}: '))
     while value not in range(0, 100):
         print('Digite somente números entre 0 e 100!')
-        value = int(input(f'Digite o valor {c+1}: '))
-        if value % 2 == 0:
-            pares.append(value)
+    if value % 2 == 0:
+        pares.append(value)
 
     valores.append(value)
 
