@@ -9,20 +9,16 @@ while True:
         print('Este número já foi adicionado!')
 
     resposta = str(input('Deseja continuar? '))
-    while resposta != 'sim' or resposta != 'nao':
+    while resposta not in ['sim', 'nao', 's', 'n']:
         print('Digite apenas sim ou nao!')
         resposta = str(input('Deseja continuar? '))
 
-    if resposta in 'sim' or resposta in 's':
+    if resposta in ['sim', 's']:
         continue
 
-    elif resposta in 'nao' or resposta in 'n':
+    elif resposta in ['nao', 'n']:
         break
 
-    else:
-        while resposta != 'sim' or resposta != 'nao':
-            print('Digite apenas sim ou nao!')
-            resposta = str(input('Deseja continuar? '))
 
 valores.sort()
 print(f'Os valores escolhidos de forma organizada são: {valores}')
